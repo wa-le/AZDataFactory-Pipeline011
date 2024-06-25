@@ -1,0 +1,19 @@
+{
+	"name": "MonitorlogParquet",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Datalake001",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileSystem": "parquet"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": []
+	}
+}
