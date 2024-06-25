@@ -3,7 +3,7 @@
 	"properties": {
 		"activities": [
 			{
-				"name": "Copy data1",
+				"name": "copyCSVtoPARQUET",
 				"type": "Copy",
 				"dependsOn": [],
 				"policy": {
@@ -46,8 +46,7 @@
 									"physicalType": "String"
 								},
 								"sink": {
-									"name": "Correlation id",
-									"type": "String",
+									"name": "Correlation_id",
 									"physicalType": "UTF8"
 								}
 							},
@@ -58,8 +57,7 @@
 									"physicalType": "String"
 								},
 								"sink": {
-									"name": "Operation name",
-									"type": "String",
+									"name": "Operation_name",
 									"physicalType": "UTF8"
 								}
 							},
@@ -82,8 +80,7 @@
 									"physicalType": "String"
 								},
 								"sink": {
-									"name": "Event category",
-									"type": "String",
+									"name": "Event_category",
 									"physicalType": "UTF8"
 								}
 							},
@@ -130,8 +127,7 @@
 									"physicalType": "String"
 								},
 								"sink": {
-									"name": "Event initiated by",
-									"type": "String",
+									"name": "Event_initiated_by",
 									"physicalType": "UTF8"
 								}
 							},
@@ -142,8 +138,7 @@
 									"physicalType": "String"
 								},
 								"sink": {
-									"name": "Resource type",
-									"type": "String",
+									"name": "Resource_type",
 									"physicalType": "UTF8"
 								}
 							},
@@ -154,8 +149,7 @@
 									"physicalType": "String"
 								},
 								"sink": {
-									"name": "Resource group",
-									"type": "String",
+									"name": "Resource_group",
 									"physicalType": "UTF8"
 								}
 							},
