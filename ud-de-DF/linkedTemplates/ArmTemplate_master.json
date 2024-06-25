@@ -11,9 +11,25 @@
 			"type": "secureString",
 			"metadata": "Secure string for 'accountKey' of 'Datalake001'"
 		},
+		"linkedService1_password": {
+			"type": "secureString",
+			"metadata": "Secure string for 'password' of 'linkedService1'"
+		},
 		"Datalake001_properties_typeProperties_url": {
 			"type": "string",
 			"defaultValue": "https://uddedatalake.dfs.core.windows.net/"
+		},
+		"linkedService1_properties_typeProperties_server": {
+			"type": "string",
+			"defaultValue": "ud-de-sqlserver.database.windows.net"
+		},
+		"linkedService1_properties_typeProperties_database": {
+			"type": "string",
+			"defaultValue": "ud-de-db"
+		},
+		"linkedService1_properties_typeProperties_userName": {
+			"type": "string",
+			"defaultValue": "rajahadmin"
 		},
 		"containerUri": {
 			"type": "string",
@@ -45,8 +61,20 @@
 					"Datalake001_accountKey": {
 						"value": "[parameters('Datalake001_accountKey')]"
 					},
+					"linkedService1_password": {
+						"value": "[parameters('linkedService1_password')]"
+					},
 					"Datalake001_properties_typeProperties_url": {
 						"value": "[parameters('Datalake001_properties_typeProperties_url')]"
+					},
+					"linkedService1_properties_typeProperties_server": {
+						"value": "[parameters('linkedService1_properties_typeProperties_server')]"
+					},
+					"linkedService1_properties_typeProperties_database": {
+						"value": "[parameters('linkedService1_properties_typeProperties_database')]"
+					},
+					"linkedService1_properties_typeProperties_userName": {
+						"value": "[parameters('linkedService1_properties_typeProperties_userName')]"
 					}
 				}
 			},

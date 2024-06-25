@@ -8,8 +8,20 @@
 		"Datalake001_accountKey": {
 			"value": ""
 		},
+		"linkedService1_password": {
+			"value": ""
+		},
 		"Datalake001_properties_typeProperties_url": {
 			"value": "https://uddedatalake.dfs.core.windows.net/"
+		},
+		"linkedService1_properties_typeProperties_server": {
+			"value": "ud-de-sqlserver.database.windows.net"
+		},
+		"linkedService1_properties_typeProperties_database": {
+			"value": "ud-de-db"
+		},
+		"linkedService1_properties_typeProperties_userName": {
+			"value": "rajahadmin"
 		}
 	}
 }
